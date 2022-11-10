@@ -3,6 +3,8 @@
 # 确保脚本抛出遇到的错误
 set -e
 
+rm -rf docs/.vitepress/dist
+
 # 生成静态文件
 npm run docs:build
 
@@ -15,6 +17,9 @@ cd docs/.vitepress/dist
 git init
 git add -A
 git commit -m 'deploy'
+
+git config user.name "GauharChan"
+git config user.email "2464231008@qq.com"
 
 # 如果发布到 https://<USERNAME>.github.io
 git push -f git@github.com:gauharchan/gauharchan.github.io.git master
