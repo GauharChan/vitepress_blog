@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  base: '/',
   lang: 'zh-CN',
   title: "gauhar's blog",
   description: 'just a blog',
