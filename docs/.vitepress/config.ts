@@ -21,7 +21,6 @@ export default defineConfig({
     ]
   ], 
   themeConfig: {
-    // logo: '/assets/logo.jpg',
     lastUpdatedText: '最后修改时间',
     outline: 'deep',
     outlineTitle: '本页目录',
@@ -30,16 +29,17 @@ export default defineConfig({
       next: '下一篇',
     },
     // algolia: {
-    //   indexName: 'vuejs',
-    //   appId: 'ML0LEBN7FQ',
-    //   apiKey: 'f49cbd92a74532cc55cfbffa5e5a7d01',
-    //   searchParameters: {
-    //     facetFilters: ['version:v3']
-    //   }
+    //   indexName: 'githubPage',
+    //   appId: 'ZV3QLSLB6N',
+    //   apiKey: '4d59c0e7b5aa682d8d20ce12f401a153',
+    //   // searchParameters: {
+    //   //   facetFilters: ['version:v3']
+    //   // }
     // },
     nav: [
       { text: 'hexo版博客', link: 'https://gauhar.gitee.io/' },
       { text: '码云', link: 'https://gitee.com/gauhar' },
+      { text: '掘金', link: 'https://juejin.cn/user/3913917126681735/posts' },
     ],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/GauharChan' },
